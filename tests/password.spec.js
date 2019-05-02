@@ -34,7 +34,6 @@ const newPasswordEvent = {
   }
 }
 
-
 // importing functions
 const { hashPassword } = require('../index');
 const { isOldSalt } = require('../index');
