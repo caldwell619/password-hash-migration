@@ -58,6 +58,7 @@ const returnUserWithCurrentSalt = async (plainTextPassword, oldSaltRounds, newSa
 }
 
 
+
 exports.hashPassword = hashPassword;
 exports.isOldSalt = isOldSalt;
 exports.isValidPassword = isValidPassword;
